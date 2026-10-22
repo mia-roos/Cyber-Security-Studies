@@ -7,7 +7,7 @@ title: Cybersecurity Learning Portfolio
 
 # Exploring Cyber Security.<br><em>Keeping people in focus.</em>
 
-<p class="lead">Welcome to my learning portfolio. I’m a doctoral researcher in health science and an educator in social and health care, exploring how digital security supports safe, continuous care.</p>
+<p class="lead">Welcome to my learning portfolio. I’m a doctoral researcher in health sciences and an educator in social and health care, exploring how digital security supports safe, continuous care.</p>
 
 <p class="intro-note">Course assignments, practical exercises and reflections from my cybersecurity studies.</p>
 
