@@ -11,17 +11,17 @@ Cyber Security is, indeed, about protecting data and information systems. More i
 
 I am a healthcare professional, vocational teacher, and doctoral researcher in Nursing Science at the University of Eastern Finland (UEF). 
 I have a background in nursing and healthcare management, including experience as a ward manager. My current work focuses on healthcare education, while my doctoral research explores the attractiveness of practical nursing work and healthcare professionals' well-being.
-Currenlty, I am studying cybersecurity to better understand how digital security affects healthcare organisations, professionals, and patient safety.
-Further, I am particularly interested in the human and organisational aspects of cybersecurity and how we can ensure safe and continuous patient care in an increasingly digital healthcare environment.
+Currenlty, I am studying cyber security to better understand how digital security affects healthcare organisations, professionals, and patient safety.
+Further, I am particularly interested in the human and organisational aspects of cyber security and how we can ensure safe and continuous patient care in an increasingly digital healthcare environment.
 
 ## Why Cybersecurity Matters
 
 Healthcare organisations increasingly depend on digital systems, including electronic health records, medical devices, and communication systems.
-Cyberattacks can disrupt healthcare services, delay treatment, and compromise patient safety. Healthcare professionals play a crucial role in maintaining cybersecurity in practice. Hence, health care professionals need better understanding about cyber security and its effects e.g. on patient safety. 
+Cyberattacks can disrupt healthcare services, delay treatment, and compromise patient safety. Healthcare professionals play a crucial role in maintaining cybersecurity in practice. Hence, health care professionals need better understanding about cyber security, and its effects e.g. on patient safety. 
 
 ## Basic Security Practices in Healthcare
 
-Some important cybersecurity practices in healthcare include:
+Some important cybersecurity basic practices in healthcare include:
 - Using personal login credentials securely
 - Enabling multi-factor authentication
 - Locking the screen when leaving a workstation
