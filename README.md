@@ -14,3 +14,5 @@ patient safety, and human factors in digital security.
 ## Learning Diary
 
 Notes on what I have done, learned, and want to explore next.
+
+- [22 October 2026 – My first GitHub Pages website](learning-diary/2026-10-22.md)
