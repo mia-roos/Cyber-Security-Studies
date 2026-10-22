@@ -1,12 +1,30 @@
-Skip to content
-MRMia RoosRESEARCHER & EDUCATOR
-Learning about digital safety.
-Keeping people at the centre.
-
-Home 01 Course assignments 02 Learning diary 03 Useful resources 04 About me 05
-ELSEWHERE
-
-YouTube ↗GitHub ↗Helsinki, Finland
-CYBERSECURITY LEARNING PORTFOLIOView repository ↗
-{{ content }}
-© {{ 'now' | date: '%Y' }} Mia RoosResearch · Education · Digital safety
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title | default: site.title | escape }} · Mia Roos</title>
+<meta name="description" content="{{ site.description | escape }}">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<aside class="sidebar">
+<a class="brand" href="{{ '/' | relative_url }}"><span class="monogram">MR</span><span>Mia Roos<small>RESEARCHER & EDUCATOR</small></span></a>
+<p class="sidebar-note">Learning about digital safety.<br>Keeping people at the centre.</p>
+<nav aria-label="Main navigation">
+<a href="{{ '/' | relative_url }}">Home <span>01</span></a>
+<a href="{{ '/#course-assignments' | relative_url }}">Course assignments <span>02</span></a>
+<a href="{{ '/#learning-diary' | relative_url }}">Learning diary <span>03</span></a>
+<a href="{{ '/#resources' | relative_url }}">Useful resources <span>04</span></a>
+<a href="{{ '/#about-me' | relative_url }}">About me <span>05</span></a>
+</nav>
+<div class="sidebar-bottom"><p>ELSEWHERE</p><a href="https://www.youtube.com/@ResearchByMia">YouTube ↗</a><a href="https://github.com/mia-roos">GitHub ↗</a><small>Helsinki, Finland</small></div>
+</aside>
+<div class="page">
+<header class="topbar"><a href="{{ '/' | relative_url }}">CYBERSECURITY LEARNING PORTFOLIO</a><a href="https://github.com/mia-roos/Cyber-Security-Studies">View repository ↗</a></header>
+<main id="main" tabindex="-1">{{ content }}</main>
+<footer><span>© {{ 'now' | date: '%Y' }} Mia Roos</span><span>Research · Education · Digital safety</span></footer>
+</div>
+</body>
+</html>
