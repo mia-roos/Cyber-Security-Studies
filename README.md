@@ -1,4 +1,4 @@
-# My Cybersecurity Learning Portfolio
+# My Cyber Security Learning Portfolio
 
 Course assignments, practical exercises, and reflections
 on my cybersecurity studies.
