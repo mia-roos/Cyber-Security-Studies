@@ -5,9 +5,9 @@ title: Cybersecurity Learning Portfolio
 
 <p class="eyebrow">Mia Roos · Learning in public</p>
 
-# Exploring cybersecurity.<br><em>Keeping people in focus.</em>
+# Exploring Cyber Security.<br><em>Keeping people in focus.</em>
 
-<p class="lead">Welcome to my learning portfolio. I’m a doctoral researcher in nursing science and a teacher in health and social care, exploring how digital security supports safe, continuous care.</p>
+<p class="lead">Welcome to my learning portfolio. I’m a doctoral researcher in health science and an educator in social and health care, exploring how digital security supports safe, continuous care.</p>
 
 <p class="intro-note">Course assignments, practical exercises and reflections from my cybersecurity studies.</p>
 
@@ -48,8 +48,10 @@ What I tried, what I learned and what I want to explore next.
 
 ## About me
 
-I’m Mia Roos, a doctoral researcher in nursing science at the University of Eastern Finland and a vocational teacher in health and social care. My background includes nursing and healthcare management.
+I’m Mia Roos, a doctoral researcher at the University of Eastern Finland and a vocational teacher in health and social care. I hold a Master of Health Sciences degree, and my professional background combines clinical nursing, experience as a ward manager, and healthcare education.
 
-My research focuses on the attractiveness of practical nursing work and wellbeing at work. In cybersecurity, I am particularly interested in patient safety and the human and organisational factors that influence secure working practices.
+My doctoral research examines work attractiveness and wellbeing at work among licensed practical nurses. It includes the psychometric validation of the Criteria for a Good Workplace (CFGW) instrument using statistical methods. My broader interests include leadership, working conditions, and ways to support wellbeing and meaningful work in health and social care.
 
-I also share educational videos on [YouTube – Research by Mia](https://www.youtube.com/@ResearchByMia).
+Through my cyber security studies, I am exploring how digital safety connects with patient safety, staff competence, and continuity of care. I am particularly interested in the human and organisational aspects of cyber security and how education can support safe everyday practices.
+
+This portfolio documents my learning as I connect my healthcare experience with new technical skills. I also share practical educational videos on [YouTube – Research by Mia](https://www.youtube.com/@ResearchByMia).
