@@ -1,18 +1,30 @@
-# My Cyber Security Learning Portfolio
+# My Cybersecurity Learning Journey
 
-Course assignments, practical exercises, and reflections
-on my cybersecurity studies.
+Welcome! I’m Mia Roos, a doctoral researcher in nursing science
+and a vocational teacher in health and social care.
 
-My particular interests include healthcare cybersecurity,
-patient safety, and human factors in digital security.
+This portfolio documents my cybersecurity studies through
+course assignments, practical exercises, and a learning diary.
 
-- [h0 – Create a web page: Cybersecurity in Healthcare](cybersecurity-in-healthcare.md)
+## My interests
 
-  My first Markdown page, introducing my background, learning goals,
-  and basic cybersecurity practices in healthcare.
+I am particularly interested in healthcare cybersecurity,
+patient safety, and the human and organisational aspects
+of digital security.
 
-## Learning Diary
+## Course assignments
 
-Notes on what I have done, learned, and want to explore next.
+### [h0 – Create a web page](cybersecurity-in-healthcare.md)
+
+My first Markdown page introduces my background, learning goals,
+and basic cybersecurity practices in healthcare.
+
+## Learning diary
+
+Reflections on what I have done, learned, and want to explore next.
 
 - [22 October 2026 – My first GitHub Pages website](learning-diary/2026-10-22.md)
+
+---
+
+Created by Mia Roos as part of my cyber security studies.
