@@ -6,9 +6,10 @@ on my cybersecurity studies.
 My particular interests include healthcare cybersecurity,
 patient safety, and human factors in digital security.
 
-## Exercises
+- [h0 – Create a web page: Cybersecurity in Healthcare](cybersecurity-in-healthcare.md)
 
-- [h0 – Create a web page](cybersecurity-in-healthcare.md)
+  My first Markdown page, introducing my background, learning goals,
+  and basic cybersecurity practices in healthcare.
 
 ## Learning Diary
 
