@@ -1,3 +1,14 @@
 title: Mia Roos
 description: Cybersecurity Learning Portfolio
-theme: jekyll-theme-cayman
+url: "https://mia-roos.github.io"
+baseurl: "/Cyber-Security-Studies"
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - SETUP.txt
