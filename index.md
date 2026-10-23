@@ -23,6 +23,12 @@ title: Cybersecurity Learning Portfolio
 
 What I tried, what I learned and what I want to explore next.
 
+<p class="entry-meta">23 October 2026</p>
+
+### [Cybersecurity in Finnish Healthcare: Legislation and Interview Preparation]({{ '/learning-diary/2026-10-23.html' | relative_url }})
+
+<p class="entry-description">Exploring cybersecurity in Finnish health and social care, relevant legislation and standards, and preparing an expert interview for next week's presentation.</p>
+
 <p class="entry-meta">22 October 2026</p>
 
 ### [My first GitHub Pages website]({{ '/learning-diary/2026-10-22.html' | relative_url }})
