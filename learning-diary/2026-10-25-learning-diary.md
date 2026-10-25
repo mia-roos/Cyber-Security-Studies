@@ -56,4 +56,4 @@ Effective cybersecurity requires both technical safeguards and organisational pr
 
 ### References
 
-Kruse, C. S., Dolezel, D., & Shanmugam, R. (2026). Cybersecurity in healthcare: A systematic review and narrative analysis. *Applied Clinical Informatics, 17*, 315–328. https://doi.org/10.1055/a-2865-4206
+Kruse, C. S., Dolezel, D., & Shanmugam, R. (2026). Cybersecurity in healthcare: A systematic review and narrative analysis. *Applied Clinical Informatics, 17*, 315–328. [https://doi.org/10.1055/a-2865-4206](https://doi.org/10.1055/a-2865-4206)
