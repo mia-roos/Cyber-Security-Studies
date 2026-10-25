@@ -1,6 +1,3 @@
-# Learning Diary – 25 October 2026
-**Cyber Security (Master), 5 ECTS**
-
 ### Today's Learning: Cybersecurity Research and Risk Management
 
 Today, I continued working on the H1 assignment, focusing on scientific literature, cybersecurity risk assessment and threat modeling. My selected article was Kruse et al. (2026), *Cybersecurity in Healthcare: A Systematic Review and Narrative Analysis*.
