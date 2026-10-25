@@ -1,4 +1,6 @@
-### Today's Learning: Cybersecurity Research and Risk Management
+## Cybersecurity Research and Risk Management
+
+**23 October 2026**
 
 Today, I continued working on the H1 assignment, focusing on scientific literature, cybersecurity risk assessment and threat modeling. My selected article was Kruse et al. (2026), *Cybersecurity in Healthcare: A Systematic Review and Narrative Analysis*.
 
