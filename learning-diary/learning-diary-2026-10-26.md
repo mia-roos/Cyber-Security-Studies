@@ -48,8 +48,3 @@ My next steps are to complete the optional H1 bonus assignments and prepare for 
 
 I also want to continue developing my understanding of cybersecurity risk management, particularly its applications in Finnish social and healthcare services.
 
-### AI Assistance
-
-I used ChatGPT (OpenAI, 2026) to support peer-review feedback, explain the META model, improve the language and structure of my learning diary, and generate an educational infographic.
-
-The activities and reflections described here are based on my own coursework.
