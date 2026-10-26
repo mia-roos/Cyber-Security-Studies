@@ -29,6 +29,13 @@ title: Cybersecurity Learning Portfolio
 
 What I tried, what I learned and what I want to explore next.
 
+<p class="entry-meta">26 October 2026</p>
+
+### [Peer Review and Cybersecurity Risk Management]({{ '/learning-diary/learning-diary-2026-10-26.html' | relative_url }})
+
+<p class="entry-description">Peer reviewing scientific cybersecurity assignments, exploring the META risk management model, reflecting on patient safety and practising GitHub documentation.</p>
+
+
 <p class="entry-meta">25 October 2026</p>
 
 ### [Cybersecurity Research and Risk Management]({{ '/learning-diary/2026-10-25-learning-diary.html' | relative_url }})
