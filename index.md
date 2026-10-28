@@ -29,6 +29,14 @@ title: Cybersecurity Learning Portfolio
 
 What I tried, what I learned and what I want to explore next.
 
+
+<p class="entry-meta">28 October 2026</p>
+
+### [Cybersecurity Presentations – Learning and Reflection]({{ '/learning-diary/learning-diary-2026-10-28.html' | relative_url }})
+
+<p class="entry-description">Reflections on my healthcare cybersecurity presentation, peer feedback, cybersecurity leadership, PHP vulnerabilities and growing confidence in using GitHub.</p>
+
+
 <p class="entry-meta">28 October 2026</p>
 
 ### [Cybersecurity in Finnish Healthcare – Finalising My Presentation]({{ '/learning-diary/2026-10-28.html' | relative_url }})
