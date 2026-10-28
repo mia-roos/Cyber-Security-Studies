@@ -122,3 +122,7 @@ For me, the most important learning points were:
 - A focused presentation with clear key messages is often more effective than attempting to cover an entire broad topic.
 
 I am satisfied with my progress and the feedback I received. The experience also strengthened my motivation to continue learning about cybersecurity, particularly its connections to healthcare, organisational resilience and patient safety.
+
+
+![Trust and patient safety in healthcare]({{ '/trust_healthcare_adapted_chan_2019%20%281%29.jpg' | relative_url }})
+
