@@ -29,6 +29,12 @@ title: Cybersecurity Learning Portfolio
 
 What I tried, what I learned and what I want to explore next.
 
+<p class="entry-meta">29 October 2026</p>
+
+### [Cybersecurity Nordic, Debian and RSS Feeds – Learning Diary]({{ '/learning-diary/2026-10-29.html' | relative_url }})
+
+<p class="entry-description">Reflections on cybersecurity awareness, trust, resilience, Linux virtualisation and continuous learning through RSS feeds.</p>
+
 
 <p class="entry-meta">28 October 2026</p>
 
