@@ -13,13 +13,9 @@ title: Cybersecurity Learning Portfolio
 
 ## Course assignments
 
-<p class="entry-meta">Assignment 00 · Getting started</p>
-
-### [Create a web page: Cybersecurity in Healthcare]({{ '/cybersecurity-in-healthcare.html' | relative_url }})
+### [H0 – Cybersecurity in Healthcare]({{ '/cybersecurity-in-healthcare.html' | relative_url }})
 
 <p class="entry-description">My first Markdown page introduces my professional background, learning goals and basic cybersecurity practices in healthcare.</p>
-
-<p class="entry-meta">Assignment 01 · Science Hunt, Literature Review and Threat Modeling</p>
 
 ### [H1 – Healthcare Cybersecurity]({{ '/h1.html' | relative_url }})
 
