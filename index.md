@@ -29,9 +29,15 @@ title: Cybersecurity Learning Portfolio
 
 What I tried, what I learned and what I want to explore next.
 
-<p class="entry-meta">29 October 2026</p>
+### [H2 Scene – Connecting Cybersecurity Research with Practice]({{ '/learning-diary/2026-11-03.html' | relative_url }})
+
+<p class="entry-meta">3 November 2026</p>
+
+<p class="entry-description">Reflections on cyber threat intelligence, the Stryker incident, Zero Trust, Debian Linux, RSS feeds and developing practical cybersecurity skills.</p>
 
 ### [Cybersecurity Nordic, Debian and RSS Feeds – Learning Diary]({{ '/learning-diary/2026-10-29.html' | relative_url }})
+
+<p class="entry-meta">29 October 2026</p>
 
 <p class="entry-description">Reflections on cybersecurity awareness, trust, resilience, Linux virtualisation and continuous learning through RSS feeds.</p>
 
