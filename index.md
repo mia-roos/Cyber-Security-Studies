@@ -25,6 +25,10 @@ title: Cybersecurity Learning Portfolio
 
 <p class="entry-description">A scientific literature review and cybersecurity risk assessment focusing on healthcare, patient safety and continuity of care.</p>
 
+### [H2 Scene – Cybersecurity News, Research and Linux]({{ '/h2.html' | relative_url }})
+
+<p class="entry-description">Exploring cybersecurity podcasts, current incidents, scientific research, Debian Linux and RSS feeds.</p>
+
 ## Learning diary
 
 What I tried, what I learned and what I want to explore next.
