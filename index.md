@@ -95,6 +95,32 @@ What I tried, what I learned and what I want to explore next.
 <li>
 <a href="https://doi.org/10.1257/pol.20240594">Ransomware attacks on hospitals and patients ↗</a>
 <small>Neprash, McGlave & Nikpay (2026).</small>
+  
+<li>
+<a href="https://www.nist.gov/cyberframework">NIST Cybersecurity Framework 2.0</a>
+<small>Framework for cybersecurity governance and risk management.</small>
+</li>
+
+<li>
+<a href="https://www.enisa.europa.eu/">ENISA – European Union Agency for Cybersecurity</a>
+<small>European cybersecurity guidance, threat intelligence and resilience.</small>
+</li>
+
+<li>
+<a href="https://www.kyberturvallisuuskeskus.fi/en">Traficom – National Cyber Security Centre Finland</a>
+<small>Finnish cybersecurity guidance, alerts and emerging threats.</small>
+</li>
+
+<li>
+<a href="https://commission.europa.eu/topics/digital-economy-and-society/cybersecurity-healthcare_en">European Commission – Cybersecurity in Healthcare</a>
+<small>EU initiatives to strengthen cybersecurity in hospitals and healthcare services.</small>
+</li>
+
+<li>
+<a href="https://krebsonsecurity.com/">Krebs on Security</a>
+<small>Investigative reporting and analysis of real-world cybersecurity incidents.</small>
+</li>
+
 </li>
 </ul>
 
