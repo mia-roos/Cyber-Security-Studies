@@ -29,6 +29,12 @@ title: Cybersecurity Learning Portfolio
 
 What I tried, what I learned and what I want to explore next.
 
+### [Cybersecurity Presentations and OSINT]({{ '/learning-diary/2026-11-04.html' | relative_url }})
+
+<p class="entry-meta">4 November 2026</p>
+
+<p class="entry-description">Reflections on cybersecurity presentations, personal digital footprints, OSINT techniques, privacy and defensive security.</p>
+
 ### [H2 Scene – Connecting Cybersecurity Research with Practice]({{ '/learning-diary/2026-11-03.html' | relative_url }})
 
 <p class="entry-meta">3 November 2026</p>
