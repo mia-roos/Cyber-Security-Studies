@@ -25,6 +25,10 @@ title: Cybersecurity Learning Portfolio
 
 <p class="entry-description">Exploring cybersecurity podcasts, current incidents, scientific research, Debian Linux and RSS feeds.</p>
 
+### [H3 Cyber Lab]({{ '/h3.html' | relative_url }})
+
+<p class="entry-description">Exploring Debian Linux, command-line tools and password security through a practical Hashcat exercise using the RockYou wordlist.</p>
+
 ## Learning diary
 
 What I tried, what I learned and what I want to explore next.
