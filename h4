@@ -1,0 +1,385 @@
+# h4 Feed Me
+
+Cybersecurity Course – 17 November 2026
+
+## x) Why use a feed reader?
+
+A feed reader allows users to follow updates from multiple websites in one place using RSS or Atom feeds. Instead of visiting each website separately, new articles are collected automatically.
+
+I find this useful for cybersecurity because the field develops rapidly. Following different sources helps me stay informed about vulnerabilities, cyberattacks, security research and emerging threats.
+
+A feed reader also makes it easier to compare information from different sources. However, the reliability and relevance of the sources still need to be evaluated.
+
+## y) Supreme Court of Finland – KKO:2003:36
+
+The Finnish Supreme Court case KKO:2003:36 concerns unauthorized port scanning and its relationship to an attempted computer break-in.
+
+The key points are:
+
+- Port scanning can be used to identify network services and potential vulnerabilities.
+- The legal significance of scanning depends on the circumstances, including its purpose and relationship to other actions.
+- The case illustrates why cybersecurity testing should only be performed on systems where the tester has permission.
+
+This is relevant to ethical hacking because technical capabilities do not automatically give permission to test other people's systems.
+
+Source: [KKO:2003:36](https://www.finlex.fi/fi/oikeuskaytanto/korkein-oikeus/ennakkopaatokset/2003/36)
+
+## a) Installing and testing a feed reader
+
+I selected **Inoreader**, a web-based feed reader, because it is easy to use and does not require installing additional software.
+
+I created an account and added several cybersecurity-related RSS feeds. I verified that the reader successfully retrieved articles from the subscribed sources.
+
+The Newsfeed view displays articles from different websites in one place. This makes it possible to follow cybersecurity developments without opening each website separately.
+
+**Screenshot 1.** Inoreader displaying subscribed cybersecurity feeds and recent articles.
+
+[Insert screenshot here]
+
+## b) Krebs on Security
+
+I subscribed to the following feed:
+
+- Website: https://krebsonsecurity.com/
+- RSS: https://krebsonsecurity.com/feed/
+
+Krebs on Security focuses on cybercrime, security incidents, investigations and emerging threats.
+
+I selected this source because it provides detailed reporting about real-world cybersecurity incidents. It also helps connect technical security issues with their consequences for organizations and individuals.
+
+## c) Schneier on Security
+
+I located the Schneier on Security blog and subscribed to its Atom feed.
+
+- Website: https://www.schneier.com/
+- Feed: https://www.schneier.com/feed/atom/
+
+The feed was successfully added to Inoreader.
+
+Bruce Schneier discusses cybersecurity, privacy, technology, policy and the wider societal implications of security.
+
+I find this perspective particularly interesting because cybersecurity is not only a technical issue. It also involves human behaviour, organizational decisions and trust.
+
+## d) Additional cybersecurity feeds
+
+I explored additional sources through Inoreader's search function and by searching for cybersecurity-related websites and feeds.
+
+I added several sources, including:
+
+**The Hacker News**
+
+https://thehackernews.com/
+
+This source provides frequent updates about cybersecurity incidents, vulnerabilities, malware and emerging threats.
+
+I selected it because it offers a broad overview of current cybersecurity developments.
+
+**BleepingComputer**
+
+https://www.bleepingcomputer.com/
+
+BleepingComputer covers security incidents, ransomware, software vulnerabilities and technical security news.
+
+I selected it because its reporting often includes concrete examples of attacks and their consequences.
+
+I also added other feeds, including the Finnish National Cyber Security Centre, SANS Internet Storm Center and US-CERT Current Activity.
+
+### Healthcare-related feeds
+
+Because my professional and research background is in healthcare, I wanted to include sources related to healthcare information technology and cybersecurity.
+
+I added:
+
+- Health-ISAC – Hacking Healthcare Archives
+- Healthcare IT Today
+- EMR, EHR and Healthcare IT News
+- health-it – Health News
+
+These sources allow me to follow developments in healthcare technology, electronic health records, digital services and cybersecurity-related issues.
+
+Healthcare is particularly interesting from a cybersecurity perspective because disruptions may affect not only information systems but also continuity of care and patient safety.
+
+**Screenshot 2.** Inoreader displaying cybersecurity and healthcare-related feeds.
+
+[Insert screenshot here]
+
+## e) Following cybersecurity feeds – Observations and reflection
+
+I explored the subscribed feeds and reviewed article headlines and topics.
+
+The feeds covered a wide range of subjects, including software vulnerabilities, cybercrime, artificial intelligence, authentication and security incidents.
+
+For example, I noticed headlines about Microsoft security updates, AI agents and the interception of SMS-based two-factor authentication codes.
+
+These topics illustrate how cybersecurity threats involve both technical systems and human activities.
+
+### Benefits
+
+- Several information sources can be followed in one place.
+- New articles are collected automatically.
+- It is easier to identify recurring topics and emerging threats.
+- Feeds support continuous learning and professional development.
+- Different perspectives can be compared.
+
+### Limitations
+
+- The number of articles can quickly become overwhelming.
+- Not all articles are equally relevant or reliable.
+- Headlines may be more dramatic than the actual findings.
+- A feed reader does not replace scientific research or official cybersecurity guidance.
+- Important developments may be missed if the selected sources do not cover them.
+
+### Personal reflection
+
+I found Inoreader useful, particularly because I am interested in the relationship between cybersecurity, healthcare and organizational resilience.
+
+However, the large number of unread articles demonstrated that information overload can become a problem. I need to select sources carefully rather than trying to read everything.
+
+I also noticed that technical cybersecurity news becomes more meaningful when connected to practical consequences. In healthcare, for example, a cyberattack may disrupt electronic patient records, medical devices, communication or access to essential services.
+
+Following feeds can help develop cybersecurity awareness, but understanding the significance of the information requires critical thinking.
+
+## f) Port scanning with Nmap
+
+### Objective
+
+The purpose of this exercise was to understand how port scanning can identify running network services.
+
+I performed the tests on my own Debian virtual machine using the localhost address. I disconnected the virtual machine from the network before scanning.
+
+### Environment
+
+- Host operating system: Windows 11
+- Virtualization software: Oracle VirtualBox
+- Guest operating system: Debian GNU/Linux 13 (Trixie), version 13.7
+- Desktop environment: Xfce
+- Port scanner: Nmap 7.95
+- Web server: Apache2
+- Target: localhost (127.0.0.1)
+
+### Step 1 – Checking the operating system
+
+I verified the operating system using:
+
+```bash
+cat /etc/os-release
+```
+
+The output confirmed Debian GNU/Linux 13 (Trixie).
+
+I also checked the root filesystem using:
+
+```bash
+findmnt /
+```
+
+The result showed that the root filesystem was mounted from `/dev/sda1` using ext4.
+
+### Step 2 – Updating package information
+
+Before installing Nmap, I updated the package lists:
+
+```bash
+sudo apt-get update
+```
+
+The command completed successfully.
+
+### Step 3 – Installing Nmap
+
+I installed the Nmap port scanner:
+
+```bash
+sudo apt-get -y install nmap
+```
+
+The installation completed successfully.
+
+### Step 4 – Installing Apache2
+
+I installed the Apache2 web server:
+
+```bash
+sudo apt-get install apache2
+```
+
+The installation completed successfully.
+
+I then stopped Apache2 to prepare for the first scan:
+
+```bash
+sudo systemctl stop apache2
+```
+
+I verified its status:
+
+```bash
+systemctl is-active apache2
+```
+
+Output:
+
+```text
+inactive
+```
+
+### Step 5 – Disconnecting from the network
+
+I disconnected the virtual machine from the network using the VirtualBox network settings.
+
+I verified the disconnection with:
+
+```bash
+ping -c 4 8.8.8.8
+```
+
+Output:
+
+```text
+ping: connect: Network is unreachable
+```
+
+This confirmed that the virtual machine could not reach the external IP address.
+
+**Screenshot 3.** Network disconnection verified using ping.
+
+[Insert screenshot here]
+
+### Step 6 – First Nmap scan
+
+With Apache2 stopped and the virtual machine disconnected from the network, I scanned localhost:
+
+```bash
+sudo nmap -A -v localhost
+```
+
+Nmap scanned 1000 TCP ports.
+
+The scan identified one open port:
+
+```text
+Discovered open port 631/tcp on 127.0.0.1
+```
+
+The scan completed in 18.88 seconds.
+
+Port 631 is commonly used by the Internet Printing Protocol (IPP) and the CUPS printing system.
+
+Port 80 was not reported as open during this scan.
+
+This showed that a service was already listening on the virtual machine even before I started the Apache web server.
+
+**Screenshot 4.** First Nmap scan with Apache2 stopped.
+
+[Insert screenshot here]
+
+### Step 7 – Starting Apache2
+
+Next, I started Apache2:
+
+```bash
+sudo systemctl start apache2
+```
+
+I verified its status:
+
+```bash
+systemctl is-active apache2
+```
+
+Output:
+
+```text
+active
+```
+
+This confirmed that Apache2 was running.
+
+### Step 8 – Second Nmap scan
+
+I repeated the same scan:
+
+```bash
+sudo nmap -A -v localhost
+```
+
+This time, Nmap identified two open ports:
+
+```text
+Discovered open port 80/tcp on 127.0.0.1
+Discovered open port 631/tcp on 127.0.0.1
+```
+
+The service detection results included:
+
+```text
+PORT     STATE  SERVICE  VERSION
+80/tcp   open   http     Apache httpd 2.4.71 (Debian)
+631/tcp  open   ipp      CUPS 2.4
+```
+
+Nmap also identified:
+
+```text
+http-title: Apache2 Debian Default Page: It works
+http-title: Home - CUPS 2.4.10
+```
+
+The scan reported that 998 of the 1000 scanned TCP ports were closed.
+
+The second scan completed in 18.20 seconds.
+
+**Screenshot 5.** Second Nmap scan showing Apache2 and CUPS.
+
+[Insert screenshot here]
+
+### Step 9 – Comparing the results
+
+| Port | Apache2 stopped | Apache2 running |
+|---|---|---|
+| 80/tcp – HTTP | Not open | Open |
+| 631/tcp – IPP/CUPS | Open | Open |
+| Total open ports | 1 | 2 |
+
+The main difference was that port 80 became open after starting Apache2.
+
+Nmap was also able to identify the web server software and its version.
+
+### Analysis and reflection
+
+This exercise demonstrated how port scanning can reveal information about running network services.
+
+I learned that an open port indicates that a service may be accessible on the scanned address. Nmap can also identify the software and version associated with that service.
+
+This information can be useful for system administrators when checking which services are running. However, similar information can also be used by attackers to identify potential targets and investigate known vulnerabilities.
+
+An open port does not automatically mean that a system is vulnerable. The actual risk depends on the service, its configuration, vulnerabilities and network accessibility.
+
+The exercise also helped me understand the concept of an **attack surface**. Every running network service may create an additional point of interaction with a system.
+
+From a healthcare cybersecurity perspective, this is important because healthcare organizations depend on numerous interconnected systems and services. Unnecessary or poorly secured services may increase security risks.
+
+For example, vulnerabilities in healthcare information systems could potentially affect the availability of electronic health records or other services essential to patient care.
+
+The exercise was performed only against localhost in my isolated virtual machine. It did not test whether the identified services were accessible from the internet.
+
+### Conclusion
+
+The practical exercise helped me understand the relationship between running services, open ports and cybersecurity risks.
+
+The clearest observation was that starting Apache2 changed the results of the Nmap scan. Port 80 became open, and Nmap identified the Apache web server and its version.
+
+I also learned that port scanning can reveal services that I had not explicitly started myself, such as CUPS.
+
+The exercise highlighted the importance of understanding which network services are running and why they are needed.
+
+## References
+
+- Karvinen, T. (2026). *Cyber Security – h4 Feed Me*. https://terokarvinen.com/cyber-security/
+- Korkein oikeus. (2003). *KKO:2003:36*. https://www.finlex.fi/fi/oikeuskaytanto/korkein-oikeus/ennakkopaatokset/2003/36
+- Nmap Project. *Nmap Reference Guide*. https://nmap.org/book/man.html
+- Krebs on Security. https://krebsonsecurity.com/
+- Schneier on Security. https://www.schneier.com/
+- The Hacker News. https://thehackernews.com/
+- BleepingComputer. https://www.bleepingcomputer.com/
+- Inoreader. https://www.inoreader.com/
