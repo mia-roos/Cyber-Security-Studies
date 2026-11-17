@@ -29,6 +29,10 @@ title: Cybersecurity Learning Portfolio
 
 <p class="entry-description">Exploring Debian Linux, command-line tools and password security through a practical Hashcat exercise using the RockYou wordlist.</p>
 
+### [H4 Feed Me]({{ '/h4.html' | relative_url }})
+
+<p class="entry-description">Following cybersecurity and healthcare RSS feeds, monitoring emerging threats, and exploring network services through practical port scanning with Nmap.</p>
+
 ## Learning diary
 
 What I tried, what I learned and what I want to explore next.
