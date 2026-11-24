@@ -41,6 +41,12 @@ title: Cybersecurity Learning Portfolio
 
 What I tried, what I learned and what I want to explore next.
 
+### [From Theory to Practice]({{ '/learning-diary/2026-11-24.html' | relative_url }})
+
+<p class="entry-meta">24 November 2026</p>
+
+<p class="entry-description">Reflections on authentication, passkeys, public-key cryptography, practical encryption exercises and improving personal cybersecurity through secure password management.</p>
+
 ### [Cybersecurity Presentations and OSINT]({{ '/learning-diary/2026-11-04.html' | relative_url }})
 
 <p class="entry-meta">4 November 2026</p>
