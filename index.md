@@ -33,6 +33,10 @@ title: Cybersecurity Learning Portfolio
 
 <p class="entry-description">Following cybersecurity and healthcare RSS feeds, monitoring emerging threats, and exploring network services through practical port scanning with Nmap.</p>
 
+### [H5 Alice and Bob]({{ '/h5.html' | relative_url }})
+
+<p class="entry-description">Exploring public-key cryptography, hybrid encryption, practical OpenPGP encryption and decryption, and secure password management across devices.</p>
+
 ## Learning diary
 
 What I tried, what I learned and what I want to explore next.
